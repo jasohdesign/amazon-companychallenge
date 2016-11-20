@@ -14,7 +14,7 @@
     </head>
     
     <body>
-        <div id="stats">
+<!--         <div id="stats">
             <div class="reactions"> 
                 <a> <i class="fa fa-eye"></i> 55 </a> 
                 <a> <i class="fa fa-thumbs-up"></i> 34 </a> 
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <a-scene>
             <a-assets>
                 <img id="current" src="img/park1.jpg">
@@ -71,7 +71,7 @@
             <a-entity>
                 <a-camera position="0 0 0" 
                     look-controls="enabled: true">>
-                    <a-cursor color="#FF0000">
+                    <a-entity cursor color="#A70500" raycaster="far: 20; interval: 1000; objects: .clickable"></a-entity>
                 </a-camera>
             </a-entity>
 
